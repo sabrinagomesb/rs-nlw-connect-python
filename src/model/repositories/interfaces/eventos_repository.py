@@ -4,7 +4,7 @@ from src.model.entities.eventos import Eventos
 class EventosRepositoryInterface(ABC):
 
     @abstractmethod
-    def insert(self, event_name: str) -> None:
+    def insert(self, event_name: str) -> int:
         pass
 
     @abstractmethod
